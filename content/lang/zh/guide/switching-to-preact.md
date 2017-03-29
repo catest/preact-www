@@ -83,7 +83,7 @@ npm i -S preact preact-compat
 现在，你可以运行你的build命令，所有的React入口都会被替换成`preact-compat`，你的bundle文件会大大的变小。当然，你最好进行后续的测试环节，并运行你的项目来确保正常运行。
 
 ## 最理想的Preact迁移方案
-你没必在代码中中去用`preact-compat`来完成React到Preact的迁移。Preact的api几乎跟React的api一致。很多React应用的迁移只需要很少甚至不用作改动。
+你没必要在代码中中去用`preact-compat`来完成React到Preact的迁移。Preact的api几乎跟React的api一致。很多React应用的迁移只需要很少甚至不用作改动。
 
 一般来说，Preact的迁移流程包含以下步骤：
 ### 1. 安装 Preact
